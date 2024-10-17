@@ -5,8 +5,7 @@ Projects done while learning Python.
 
 By working with this code, I learned how to use the turtle module to create graphics and build interactive applications in Python. I gained experience using the pandas library for manipulating data and reading/writing CSV files. The code helped me understand basic control structures like loops (while) and conditionals (if). I also learned how to handle user inputs dynamically using turtle.Screen methods. Managing lists and using list comprehensions to process data became clearer. Plus, I got hands-on experience with basic debugging and working with console output in Python.
 
-# Programming Language Used:
-![image](https://github.com/user-attachments/assets/6b2857dc-8c3f-44ce-856b-cce4bee96af7)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Topics learned:
 
@@ -31,6 +30,9 @@ By working with this code, I learned how to use the turtle module to create grap
 - Use loops and if-conditions to control the program flow (`while`, `if`).
 - Modify text to capitalize each word with `.title()`.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Programming Language Used:
+![image](https://github.com/user-attachments/assets/6b2857dc-8c3f-44ce-856b-cce4bee96af7)
 
 
