@@ -1,0 +1,52 @@
+import turtle  # Import turtle graphics library
+import pandas  # Import pandas library for data handling
+from pandas import read_csv  # Specifically import read_csv function from pandas
+
+# Set up the screen
+screen = turtle.Screen()
+screen.title("U.S. States Game")
+image = "blank_states_img.gif"
+screen.setup(height=491, width=725)
+screen.addshape(image)
+turtle.shape(image)
+
+# Load the data from CSV file containing states' information
+data = read_csv("50_states.csv")
+# Convert the states column to a list
+all_states = data.state.to_list()
+
+# Initialize an empty list to keep track of guessed states
+guesses = []
+
+# Main game loop
+while len(guesses) < 50:
+
+    # Prompt user to enter the name of a state
+    answer_state = screen.textinput(title=f"{len(guesses)}/50 Guess the State",
+                                    prompt="Whats another states name?").title()
+
+    # If user types "End", create a list of missing states and save to a new CSV file
+    if answer_state == "End":
+        missing_states = [state for state in all_states if state not in guesses]
+        new_data = pandas.DataFrame(missing_states)
+        new_data.to_csv("missing_states.csv")
+        print(f"Your score is {len(guesses)}/50")
+        break
+
+    # If entered state is correct and present in the list, proceed
+    if answer_state in all_states:
+        guesses.append(answer_state)  # Add to guesses list
+        state = turtle.Turtle()
+        state.hideturtle()
+        state.penup()
+        state_data = data[data.state == answer_state]
+        state.goto(state_data.x.item(), state_data.y.item())  # Move to state's position
+        state.write(answer_state)# Write the state's name on the screen
+
+
+
+
+
+
+
+
