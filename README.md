@@ -1,5 +1,5 @@
-# Learning-Python
-Projects done while learning Python.
+# States-Guessing-Game-Python
+
 
 # Summary:
 
