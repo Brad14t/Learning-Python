@@ -3,7 +3,7 @@ Projects done while learning Python.
 
 # Summary:
 
-By working with this code, I learned how to use the turtle module to create graphics and build interactive applications in Python. I gained experience using the pandas library for manipulating data and reading/writing CSV files. The code helped me understand basic control structures like loops (while) and conditionals (if). I also learned how to handle user inputs dynamically using turtle.Screen methods. Managing lists and using list comprehensions to process data became clearer. Plus, I got hands-on experience with basic debugging and working with console output in Python.
+By working with this code, I learned how to use the turtle module to create graphics and build interactive applications in Python. Reading and navigating documentation on stack overflow and pyhton documentation. I gained experience using the pandas library for manipulating data and reading/writing CSV files. The code helped me understand basic control structures like loops (while) and conditionals (if). I also learned how to handle user inputs dynamically using turtle.Screen methods. Managing lists and using list comprehensions to process data became clearer. Plus, I got hands-on experience with basic debugging and working with console output in Python.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -34,5 +34,36 @@ By working with this code, I learned how to use the turtle module to create grap
 
 # Programming Language Used:
 ![image](https://github.com/user-attachments/assets/6b2857dc-8c3f-44ce-856b-cce4bee96af7)
+
+# Output:
+
+When first running the game, the map is displayed, and the pop up asking you to enter the name of the a state comes up automaticly. Allowing you to instantly start typing.
+
+![1](https://github.com/user-attachments/assets/97e5191e-78b5-4f31-ae78-6e937f62936f)
+
+Enter as many states you can remember.
+
+The pop up will return after entering any input, only allowing correct input onto the map.
+
+![1](https://github.com/user-attachments/assets/bb04fac8-4449-42bc-988e-5d517eeb8a7f)
+
+Once the user is done type "End" for the game to end. Game will close and your score will be printed in the consol.
+
+![1](https://github.com/user-attachments/assets/bbecec0a-94ca-4826-9fcd-1c028c0dfbe6)
+
+Also a new CSV file will be created. The new list will be all the states not guessed.
+
+![1](https://github.com/user-attachments/assets/0f5931bb-41da-4672-9446-a4919ad29233)
+
+![1](https://github.com/user-attachments/assets/b5cb02a6-e724-4ce9-a385-c33d84341403)
+
+# Conclusion:
+
+This is a very fun game to test someones knowledge of the States of America. But this process showed many basics to python and what you can create with just a couple of modules. Main thing learned is how to navigate documentation. Documentation is the key to building anything you can think of. 
+
+
+
+
+
 
 
