@@ -35,7 +35,7 @@ By working with this code, I learned how to use the turtle module to create grap
 # Programming Language Used:
 ![image](https://github.com/user-attachments/assets/6b2857dc-8c3f-44ce-856b-cce4bee96af7)
 
-# Output:
+# Game:
 
 When first running the game, the map is displayed, and the pop up asking you to enter the name of the a state comes up automaticly. Allowing you to instantly start typing.
 
